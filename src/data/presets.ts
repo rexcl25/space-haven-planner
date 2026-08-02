@@ -9,10 +9,10 @@ export const GRID_PRESETS: readonly GridPreset[] = [
   { label: '2x1', width: 54, height: 27 },
   { label: '1x2', width: 27, height: 54 },
   { label: '2x2', width: 54, height: 54 },
-  { label: '3x1', width: 81, height: 27 },
-  { label: '1x3', width: 27, height: 81 },
-  { label: '3x2', width: 81, height: 54 },
-  { label: '2x3', width: 54, height: 81 },
+  { label: '3x1', width: 82, height: 27 },
+  { label: '1x3', width: 27, height: 82 },
+  { label: '3x2', width: 82, height: 54 },
+  { label: '2x3', width: 54, height: 82 },
 ] as const
 
 /** Default grid preset (2x2) */
